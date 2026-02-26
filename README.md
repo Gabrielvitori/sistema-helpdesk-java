@@ -7,6 +7,7 @@ Este é um protótipo de sistema desktop criado para otimizar a abertura de cham
 O projeto foi desenvolvido com foco na aplicação de boas práticas de Programação Orientada a Objetos (POO) e persistência de dados utilizando Java puro.
 
 💻 Tecnologias e Ferramentas
+
 Linguagem: Java
 
 Gerenciador de Dependências: Maven
@@ -20,6 +21,7 @@ Banco de Dados: MySQL
 Comunicação de Dados: JDBC (Java Database Connectivity)
 
 ⚙️ Arquitetura e Padrões de Projeto
+
 O código foi refatorado para fugir do acoplamento e estruturado no padrão DAO, dividindo as responsabilidades em quatro camadas principais:
 
 model: Classes de domínio que representam os dados do negócio.
@@ -31,6 +33,7 @@ dao: Encapsulamento de toda a lógica de persistência e comandos SQL, isolando 
 application: Camada visual focada apenas em interagir com o usuário e repassar objetos para o DAO.
 
 🚀 Funcionalidades Principais (Features)
+
 Captura Automática de Host: Utilização da classe InetAddress para identificar e preencher automaticamente o nome da máquina na rede, evitando erros de digitação do usuário.
 
 Interface Moderna: Substituição do tema nativo do Java pelo FlatLaf, entregando uma experiência visual alinhada aos sistemas operacionais atuais (Windows 11).
