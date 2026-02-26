@@ -1,5 +1,7 @@
 🛠️ Sistema de Suporte TI (HelpDesk)
+
 📌 Sobre o Projeto
+
 Este é um protótipo de sistema desktop criado para otimizar a abertura de chamados técnicos em ambientes corporativos (como operações de Call Center). A aplicação visa reduzir o tempo de resposta do suporte, capturando automaticamente os dados da máquina do usuário e enviando a solicitação diretamente para o banco de dados da equipe de TI.
 
 O projeto foi desenvolvido com foco na aplicação de boas práticas de Programação Orientada a Objetos (POO) e persistência de dados utilizando Java puro.
